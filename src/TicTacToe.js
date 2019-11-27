@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './TicTacToe.css';
 
 class TicTacToe extends React.Component {
@@ -43,4 +42,5 @@ class TicTacToe extends React.Component {
     return <div className="board">{cells}</div>;
   }
 }
-ReactDOM.render(<TicTacToe />, document.getElementById('root'));
+
+export default TicTacToe;
